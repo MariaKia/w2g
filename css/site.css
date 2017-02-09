@@ -1,0 +1,232 @@
+body{
+	background-color: #d3d3d3;
+}
+.homepage{
+	padding-top:120px;
+}
+.page-header{
+	background-color: purple;
+	border-bottom: purple;
+	width: 100%;
+	color: white;
+	padding-top: 10px; 
+	margin-top: 0px;
+	display: inline-block;
+	box-shadow: 0 0 .9em black;
+	text-align: center;
+}
+
+.foto-home{
+	border-radius: 20px;
+	text-align: center;
+	padding: 2em;
+}
+.img{
+	width: 50%;
+	height: 300px;
+}
+
+.container{
+	width: 60%;
+	text-align: center;
+}
+
+.center{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+.rigth{
+	text-align: right;
+}
+.mein{
+	margin-left: 25%;
+}
+.small{
+	width: 50%;
+}
+
+.espaco{
+	margin-top: 110px;
+	margin-left: 50px;
+}
+
+.post{
+	display: inline-block;
+	transition: all .3s ease;
+	text-align: left;
+	box-shadow: 1px 1px 1px #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-bottom: 15px;
+	padding: 1em;
+}
+.post:hover{
+	transition: all .3s ease;
+	box-shadow: 0px 0px 5px #ccc;
+}
+.resposta{
+	background: gray;
+}
+
+.perfil{
+	width: 80%;
+	display: inline-block;
+	transition: all .3s ease;
+	padding: .6em;
+	text-align: left;
+	box-shadow: 1px 1px 1px #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.text-comentario{
+	border-radius: 5px;
+	width:110%;
+	resize: none;
+}
+.usuario-e-foto, .texto-usuario, .video-post{
+	float:left;
+	clear:both;
+	margin:10px;
+}
+.foto-perfil-post, .nome-perfil-post{
+	margin:10px;
+	float: left;
+}
+.foto-perfil-resposta{
+	width:50px;
+	height:50px;
+	margin:10px;
+	float:left;
+}
+.texto-usuario-resposta, .nome-perfil-resposta{
+	float:left;
+	font-size:0.8em;
+	margin-top:10px;
+	margin-left:5px;
+}
+.usuario-comenta{
+	float:left;
+	clear: both;
+	margin:30px;
+	width:80%;
+}
+
+.meio{
+	float:left;
+	padding:10px;
+}
+.separa{
+	padding-right:10px;
+}
+.pesquisa{
+	margin-right: 50px;
+	margin-top:20px;
+	width:20em;
+	display: inline-block;
+}
+.flutua{
+	float: right;
+	display: inline-block;
+}
+
+#btn-pesquisa{
+	width: 30%;
+	text-align: center;
+	border-top: 10em;
+}
+#box-pesquisa{
+	width: 70%;
+}
+.comentario{
+	box-shadow: 0px 0px 1px #ccc;
+	width: 95%;
+}
+.nome-perfil-resposta{
+	font-size: 1em;
+	font-weight: bold;
+	padding-top: 3%;	
+	color: purple;
+}
+.texto-usuario-resposta{
+	padding-top: 3%;	
+}
+.foto-perfil-resposta{
+	box-shadow: 0px 0px 1px #ccc;
+	border:1px solid #ccc;
+}
+.foto-perfil-post{
+	box-shadow: 0px 0px 1px #ccc;
+	margin-top:15px;
+}
+.nome-perfil-post{
+	padding-top: 2.3%;
+}
+.texto-usuario{
+	border-bottom: 1px solid #f7f7f7;
+	width: 95%;
+}
+
+.navegador ul{
+	margin-top: 20px;
+	color: #fff;
+	position: fixed;
+	background: purple;
+	border-bottom-right-radius: 10px;
+}
+
+.data-postagem{
+	color: #cccccc;
+	padding-top: 7%;
+	padding-right: 5%;
+	float: right;
+}
+.linha-separa-comentario{
+	width: 110%;
+	border-bottom: 1px solid #d5d9e0;
+	bottom: 15%;
+}
+
+.grupo-pesquisa{
+	width: 100%;
+	display: inline-block;
+	transition: all .3s ease;
+	padding: .6em;
+	margin-bottom: 10px;
+	text-align: left;
+	box-shadow: 1px 1px 1px #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.pequeno{
+	width: 30%;
+}
+.medio{
+	width: 50%;
+}
+.grande{
+	width: 90%;
+}
+
+.fundo{
+	
+	background-repeat: no-repeat;
+}
+a{
+	color: white; !important;
+}
+.perfil a{
+	color:purple;
+}
+.atualizar-perfil{
+	width: 80%;
+	display: inline-block;
+	transition: all .3s ease;
+	padding: .6em;
+	text-align: center;
+	box-shadow: 1px 1px 1px #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+}

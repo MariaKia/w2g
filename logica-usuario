@@ -1,0 +1,23 @@
+<?php
+session_start();
+
+
+function usuarioEstaLogado(){
+	return isset($_SESSION["u_logado"]);
+}
+function usuarioLogado(){
+	return $_SESSION["u_logado"];
+}
+function loga($email){
+	$_SESSION["u_logado"] = $email;	
+}
+function verificaLogado(){
+	if (!usuarioEstaLogado()){
+		header("Location: index.php");
+		die();
+	}
+}
+function logout(){
+	session_destroy();
+	session_start();
+}
