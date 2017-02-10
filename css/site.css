@@ -168,13 +168,30 @@ body{
 	width: 95%;
 }
 
-.navegador ul{
-	margin-top: 20px;
+.navbotao{ 
+	margin-left: 0px;
+	margin-top: 65px;
 	color: #fff;
 	position: fixed;
 	background: purple;
 	border-bottom-right-radius: 10px;
 }
+.navi{
+	margin-left: 0px;
+	margin-top: 119px;
+	color: #fff;
+	position: fixed;
+	background: purple;
+	border-bottom-right-radius: 10px;
+}
+.nav-toggle{
+	background: purple;
+	border: 0px;
+	width: 40px;
+	height: 30px;
+	left: 9px;
+}
+
 
 .data-postagem{
 	color: #cccccc;
@@ -210,10 +227,6 @@ body{
 	width: 90%;
 }
 
-.fundo{
-	
-	background-repeat: no-repeat;
-}
 a{
 	color: white; !important;
 }
