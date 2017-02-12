@@ -11,7 +11,7 @@
 		<section class="post"> 
 			<div class="barra">
 				<span class='usuario-e-foto'>
-					<img class='foto-perfil-post' src="img/wtg.png">
+					<img class='foto-perfil-post' src="img/avatar.png">
 					<h2 class='nome-perfil-post'>  Marcela Rodriguez </h2>
 					
 				</span>
@@ -24,7 +24,7 @@
 
 			<div class='respostas linha-separa'>
 				<span class='usuario-e-foto comentario'>
-					<img class='foto-perfil-resposta' src="img/wtg.png">
+					<img class='foto-perfil-resposta' src="img/avatar.png">
 					<h6 class='nome-perfil-resposta'> Rafael da Silva:  </h6>
 					<p class="texto-usuario-resposta"> Nem é tão bom assim.</p>
 				</span>
@@ -41,7 +41,7 @@
 		<section class="post"> 
 			<div class="barra">
 				<span class='usuario-e-foto'>
-					<img class='foto-perfil-post' src="img/wtg.png">
+					<img class='foto-perfil-post' src="img/avatar.png">
 					<h2 class='nome-perfil-post'>  Marcela Rodriguez </h2>
 				</span>
 				<span class="data-postagem">22 de dezembro de 2016</span>
@@ -52,7 +52,7 @@
 			</div>
 			<div class='respostas'>
 				<span class='usuario-e-foto comentario'>
-					<img class='foto-perfil-resposta' src="img/wtg.png">
+					<img class='foto-perfil-resposta' src="img/avatar.png">
 					<h6 class='nome-perfil-resposta'> Rafael da Silva:  </h6>
 					<p class="texto-usuario-resposta"> Nem é tão bom assim.</p>
 				</span>
@@ -69,7 +69,7 @@
 		<section class="post"> 
 			<div class="barra">
 				<span class='usuario-e-foto'>
-					<img class='foto-perfil-post' src="img/wtg.png">
+					<img class='foto-perfil-post' src="img/avatar.png">
 					<h2 class='nome-perfil-post'>  Marcela Rodriguez </h2>
 				
 				</span>
@@ -81,7 +81,7 @@
 			</div>
 			<div class='respostas'>
 				<span class='usuario-e-foto comentario'>
-					<img class='foto-perfil-resposta' src="img/wtg.png">
+					<img class='foto-perfil-resposta' src="img/avatar.png">
 					<h6 class='nome-perfil-resposta'> Rafael da Silva:  </h6>
 					<p class="texto-usuario-resposta"> Nem é tão bom assim.</p>
 				</span>

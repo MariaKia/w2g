@@ -2,7 +2,6 @@
 	include('header.php');
 	include('logica-usuario.php');
 	include('nav-superior.php');
-	include('navegador.php');
 	verificaLogado();
 ?>
 
@@ -30,26 +29,18 @@
 				<label>Unidade: </label>
 				<select size="1" name="grupos">
 					<option value="Areias">Areias</option>
-					<option value="Goiana">Goiana</option>
-					<option value="Jaboatao">Jaboatão dos Guararapes</option>
-                    <option value="agua-fria">Água Fria</option>
-                    <option value="araripina">Araripina</option>
-                    <option value="cabo">Cabo</option>
-                    <option value="caruaru">Caruaru</option>
-                    <option value="garanhus">Garanhus</option>
-                    <option value="paulista">Paulista</option>
-                    <option value="petrolina">Petrolina</option>
-                    <option value="santa-cruz">Santa Cruz</option>
-                    <option value="santo-amaro">Santo Amaro</option>
-                    <option value="paulista">Paulista</option>
-                    <option selected="selected" value="Selecione">Selecione!</option>
+					<option value="Faculdade de Tecnologia SENAI Pernambuco">Faculdade de Tecnologia SENAI Pernambuco</option>
 				</select><br><br>
 				
 				<label >Curso: </label>
 				<select size="1" name="cursus">
-					<option selected value="Selecione">Selecione!</option>
-					<option value=""></option>
-					<option value=""></option>
+					<option value="Administração">Administração</option>
+					<option value="Análise e Desenvolvimento de Sistemas">Análise e Desenvolvimento de Sistemas</option>
+					<option value="Automação Industrial">Automação Industrial</option>
+					<option value="Informática">Informática</option>
+					<option value="Redes de Computadores">Redes de Computadores</option>
+					<option value="Telecomunicações">Telecomunicações</option>
+					<option value="Eletrônica">Eletrônica</option>
 				</select><br><br>
 				
 				<div class="btn-group" role="group" aria-label="...">

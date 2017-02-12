@@ -1,11 +1,13 @@
 <?php
 	include('header.php');
+	include('logica-usuario.php');
 	include('nav-superior.php');
-	include('navegador.php');
+	verificaLogado();
 ?>
 
 		<section class="espaco">
 			<div class="container">
+			<br><br><br>
 				<label>Senha Atual: </label>
 				<input class="form-control" id="senha-usuario" type="text">
 

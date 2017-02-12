@@ -1,6 +1,10 @@
 body{
 	background-color: #d3d3d3;
 }
+.index{
+	background: url('arvoresemfundo.png') fixed no-repeat center;
+}
+
 .homepage{
 	padding-top:120px;
 }
@@ -17,17 +21,27 @@ body{
 }
 
 .foto-home{
-	border-radius: 20px;
+	border-radius: 40px;
 	text-align: center;
 	padding: 2em;
 }
+.foto-perfil{
+	margin-top: 10px;
+	width: 300px;
+	border-radius: 200px;
+}
 .img{
+	box-shadow: 0 0 .9em black;
+}
+.caixa{
 	width: 50%;
-	height: 300px;
+}
+.caixa-amigos{
+	width: 30%;
 }
 
 .container{
-	width: 60%;
+	width: 70%;
 	text-align: center;
 }
 
@@ -66,20 +80,14 @@ body{
 	transition: all .3s ease;
 	box-shadow: 0px 0px 5px #ccc;
 }
-.resposta{
-	background: gray;
-}
 
 .perfil{
-	width: 80%;
+	width: 100%;
 	display: inline-block;
-	transition: all .3s ease;
-	padding: .6em;
+	padding: .9em;
 	text-align: left;
-	box-shadow: 1px 1px 1px #ccc;
-	border-radius: 10px;
-	background-color: #fff;
 }
+
 .text-comentario{
 	border-radius: 5px;
 	width:110%;
@@ -95,10 +103,11 @@ body{
 	float: left;
 }
 .foto-perfil-resposta{
-	width:50px;
-	height:50px;
+	width:45px;
+	height:45px;
 	margin:10px;
 	float:left;
+	border-radius:30%;
 }
 .texto-usuario-resposta, .nome-perfil-resposta{
 	float:left;
@@ -112,6 +121,10 @@ body{
 	margin:30px;
 	width:80%;
 }
+.usuario-e-foto{
+	box-shadow: 0 .01em 0 gray;
+	text-align: center;
+}
 
 .meio{
 	float:left;
@@ -122,7 +135,6 @@ body{
 }
 .pesquisa{
 	margin-right: 50px;
-	margin-top:20px;
 	width:20em;
 	display: inline-block;
 }
@@ -159,6 +171,8 @@ body{
 .foto-perfil-post{
 	box-shadow: 0px 0px 1px #ccc;
 	margin-top:15px;
+	width:45px;
+	border-radius:30%;
 }
 .nome-perfil-post{
 	padding-top: 2.3%;
@@ -174,15 +188,16 @@ body{
 	color: #fff;
 	position: fixed;
 	background: purple;
-	border-bottom-right-radius: 10px;
 }
 .navi{
 	margin-left: 0px;
-	margin-top: 119px;
+	margin-top: 99px;
 	color: #fff;
 	position: fixed;
 	background: purple;
 	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 0 .1em .2em black;
 }
 .nav-toggle{
 	background: purple;
@@ -191,8 +206,6 @@ body{
 	height: 30px;
 	left: 9px;
 }
-
-
 .data-postagem{
 	color: #cccccc;
 	padding-top: 7%;
@@ -242,4 +255,13 @@ a{
 	box-shadow: 1px 1px 1px #ccc;
 	border-radius: 10px;
 	background-color: #fff;
+}
+.imagem-perfil{
+	border-radius:45%;
+}
+textarea{
+	resize:none;
+}
+.grupo-pesquisa a{
+	color: purple;
 }

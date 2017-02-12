@@ -2,7 +2,6 @@
 	include('header.php');
 	include('logica-usuario.php');
 	include('nav-superior.php');
-	include('navegador.php');
 	verificaLogado();
 ?>
 

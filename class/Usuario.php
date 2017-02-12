@@ -28,6 +28,9 @@
 		public function getEmail(){
 			return $this->email;
 		}
+		public function getSexo(){
+			return $this->sexo;
+		}
 
 		public function setImagemUrl($url){
 			$this->imagemurl=$url;
@@ -51,13 +54,14 @@
 			$this->email = $email;
 		}		
 
-		function __construct($nome,$id,$curso,$sexo,$unidade,$email){
+		function __construct($nome,$id,$curso,$sexo,$unidade,$email,$imagemurl){
 			$this->nome = $nome;
 			$this->id = $id;
 			$this->curso = $curso;
 			$this->unidade= $nome;
 			$this->sexo= $sexo;
 			$this->email = $email;
+			$this->imagemurl=$imagemurl;
 		}
 
 }
