@@ -2,6 +2,7 @@
 	include('header.php');
 	include('logica-usuario.php');
 	include('nav-superior.php');
+	include('navCurso.php');
 	verificaLogado();
 ?>
 
@@ -98,5 +99,4 @@
 
 <?php 
 	include('footer.php');
- ?>
-
+?>

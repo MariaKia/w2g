@@ -265,3 +265,39 @@ textarea{
 .grupo-pesquisa a{
 	color: purple;
 }
+
+.navCurso{
+	position: fixed;
+}
+.btcurso{
+	padding: .9em; 
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	color: white;
+}
+.b1{
+	background: red;
+}
+.b2{
+	background: blue;
+}
+.b3{
+	background: green;
+}
+.b4{
+	background: orange;
+}
+.b5{
+	background: brown;
+}
+.b6{
+	background: pink;
+}
+.b7{
+	background: black;
+}
+
+.b{
+	padding: .4em;
+	background-image: linear-gradient(to top, #d3d3d3, white);
+}
