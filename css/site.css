@@ -262,12 +262,15 @@ a{
 textarea{
 	resize:none;
 }
+
 .grupo-pesquisa a{
 	color: purple;
 }
 
 .navCurso{
-	position: fixed;
+	position: fixed;	
+	top: 50px;
+	right: 0px;
 }
 .btcurso{
 	padding: .9em; 
@@ -298,6 +301,6 @@ textarea{
 }
 
 .b{
-	padding: .4em;
-	background-image: linear-gradient(to top, #d3d3d3, white);
+	padding: .5em;
+	background-image: linear-gradient(to bottom, #d3d3d3, white);
 }
